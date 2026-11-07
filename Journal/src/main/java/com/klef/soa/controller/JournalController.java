@@ -44,7 +44,7 @@ public class JournalController {
 
 	    return ResponseEntity.status(HttpStatus.CREATED).body(journal);
 	}
-	// Display All Doctors
+	// Display All 
 	  @GetMapping("/displayall")
 	  public ResponseEntity<List<Journal>> displayAlljournals()
 	  {
